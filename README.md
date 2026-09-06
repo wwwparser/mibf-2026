@@ -23,7 +23,8 @@ GitHub Pages как есть — бэкенда нет.
 | `map.html` | Официальный мастерплан «Гостиного Двора» |
 | `press.html` | Разбор пресс-релиза: что обещали и что подтвердилось |
 | `stroki.html` | «Строки» (КИОН/МТС) против Литрес, Яндекс Книг и других подписок |
-| `video.html` | 39 записей трансляций, привязанных к событиям программы |
+| `tg-feed.html` | Лента всех постов каналов участников по дням, с фильтрами |
+| `video.html` | 39 записей трансляций: превью, встроенный плеер, привязка к программе |
 
 ## Откуда данные
 
@@ -62,8 +63,10 @@ OpenRouter.
 `telegram-chat-analysis`. Проверено 6 сентября 2026: с этой машины MTProto
 проходит напрямую, локальный SOCKS5 не понадобился.
 
-**Записи трансляций VK** — список принимается текстом: `vkvideo.ru/@mmkya/all`
-отдаётся только авторизованным (без входа — редирект на `errorCode=11300`).
+**Записи трансляций VK** — метод `video.get` VK API, вызванный прямо в браузере
+пользователя через скилл `browser-bridge` (`scripts/vk_grab_api.py`): страница
+канала без авторизации редиректит на `errorCode=11300`, а токен при таком вызове
+остаётся в браузере. Оттуда же берутся обложки и ссылки плееров с хешем.
 Скрипт сам сопоставляет ролики с событиями программы по названию.
 
 ## Как собрать
@@ -86,7 +89,8 @@ python $S --excel data/contacts/exhibitors_sites.xlsx \
     --outdir data/contacts/out --intl --resume
 python scripts/merge_contacts.py               # соцсети и почты -> exhibitors.json
 python scripts/fetch_tg_posts.py --days 10     # посты каналов участников
-python scripts/import_vk_videos.py data/vk/vkvideo_mmkya_all.txt
+python scripts/vk_grab_api.py --since 2026-08-27   # ролики VK (нужен browser-bridge)
+python scripts/import_vk_videos.py             # привязка роликов к событиям
 
 # платные шаги (XMLRiver)
 python scripts/enrich_books.py  --limit 400                # магазины
@@ -136,7 +140,8 @@ scripts/merge_contacts.py        сведение контактов, списо
 scripts/fetch_tg_posts.py        посты каналов участников за окно вокруг ярмарки
 scripts/fetch_rbc_biblio.py      выпуски подкаста «Библиотека» Радио РБК
 scripts/fetch_vk_video.py        видео через VK API (нужен VK_SERVICE_TOKEN)
-scripts/import_vk_videos.py      импорт списка роликов текстом + привязка к событиям
+scripts/vk_grab_api.py           ролики VK через API в живом браузере
+scripts/import_vk_videos.py      привязка роликов к событиям программы
 scripts/build_site.py            генерация site/
 
 content/press.html               авторский разбор пресс-релиза
