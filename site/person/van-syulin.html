@@ -20,6 +20,35 @@
 <h2>Где ещё пишут</h2><ul><li><a href="https://vk.ru/album-132819181_300710993" rel="nofollow noopener" target="_blank">Выставка картин художницы из Китая Ван Сюлин.</a><br><span class="small muted">Альбом Выставка картин художницы из Китая Ван Сюлин. — Псковский музей-заповедник — 32 фотографии.</span></li><li><a href="https://olga-kurto.livejournal.com/67427.html" rel="nofollow noopener" target="_blank">Художница Ван Сюлин (Тяньцзинь) - черновики Ольги Курто</a><br><span class="small muted">Долгое время ее наставником в живописи был мэтр искусства Китая,художник, каллиграф, поэт и писатель, зам. Председателя Китайской ассоциации...</span></li><li><a href="https://pressaparte.ru/news/syuzhety/4445/" rel="nofollow noopener" target="_blank">Красота в каждом свитке. Выставка Ван Сюлин всё ещё ...</a><br><span class="small muted">Выставка Ван Сюлин всё ещё работает во Дворе Постникова. 26 февраля 2024 г. В Китае есть легенда о художнике У Даоцзы. Как-то раз он...</span></li></ul>
 <p class="small muted">Ссылки найдены автоматически через поисковую выдачу — возможны однофамильцы.</p>
 </main>
+
+<script>
+// Превью -> плеер по клику: iframe создаётся только для нажатой записи.
+// VK не отдаёт плеер в iframe с незащищённого origin (проверено: с http://127.0.0.1
+// показывает «Видео недоступно», с https тот же код играет); YouTube этим не страдает,
+// поэтому проверяем протокол только для vk.com.
+for (const box of document.querySelectorAll('.video[data-embed]')) {
+  const isVk = box.dataset.embed.includes('vk.com');
+  const canEmbed = !isVk || location.protocol === 'https:';
+  const open = () => {
+    if (!canEmbed) { window.open(box.dataset.url, '_blank', 'noopener'); return; }
+    const f = document.createElement('iframe');
+    f.allow = 'autoplay; encrypted-media; fullscreen; picture-in-picture';
+    f.allowFullscreen = true;
+    f.src = box.dataset.embed + (box.dataset.embed.includes('?') ? '&' : '?') + 'autoplay=1';
+    box.replaceChildren(f);
+    box.removeAttribute('role');
+    box.style.cursor = 'default';
+  };
+  box.addEventListener('click', open);
+  box.addEventListener('keydown', e => {
+    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); }
+  });
+  if (!canEmbed) {
+    const n = document.getElementById('embed-note');
+    if (n) n.hidden = false;
+  }
+}
+</script>
 <footer>
   <p>Независимый разбор 39-й Московской международной книжной ярмарки (2–6 сентября 2026, «Гостиный Двор»).
   Данные собраны из открытого API сайта <a href="https://events.mibf.info/2026/program">events.mibf.info</a>,

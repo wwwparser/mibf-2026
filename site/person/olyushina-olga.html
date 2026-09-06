@@ -20,6 +20,35 @@
 <h2>Где ещё пишут</h2><ul><li><a href="https://www.retail.ru/news/pochti-40-rossiyan-pokupayut-knigi-chtoby-kollektsionirovat-a-ne-chitat-23-aprelya-2026-277081/" rel="nofollow noopener" target="_blank">Почти 40% россиян покупают книги, чтобы ...</a><br><span class="small muted">... Ольга Олюшина, директор по внешним коммуникациям сети «Читай-город». Источник: «Читай-город» и «Лампа». Как...</span></li><li><a href="https://www.instagram.com/olyushina.litres/" rel="nofollow noopener" target="_blank">Олеся Олюшина | Автор книг | Литрес • (@olyushina.litres)</a><br><span class="small muted">Автор стихов и книг Стихи • проза • тексты песен Ridero | ЛитРес | Маркетплейсы Песни и саундтреки - YouTube, VK, 4beat. Telegram ⬇️.</span></li></ul>
 <p class="small muted">Ссылки найдены автоматически через поисковую выдачу — возможны однофамильцы.</p>
 </main>
+
+<script>
+// Превью -> плеер по клику: iframe создаётся только для нажатой записи.
+// VK не отдаёт плеер в iframe с незащищённого origin (проверено: с http://127.0.0.1
+// показывает «Видео недоступно», с https тот же код играет); YouTube этим не страдает,
+// поэтому проверяем протокол только для vk.com.
+for (const box of document.querySelectorAll('.video[data-embed]')) {
+  const isVk = box.dataset.embed.includes('vk.com');
+  const canEmbed = !isVk || location.protocol === 'https:';
+  const open = () => {
+    if (!canEmbed) { window.open(box.dataset.url, '_blank', 'noopener'); return; }
+    const f = document.createElement('iframe');
+    f.allow = 'autoplay; encrypted-media; fullscreen; picture-in-picture';
+    f.allowFullscreen = true;
+    f.src = box.dataset.embed + (box.dataset.embed.includes('?') ? '&' : '?') + 'autoplay=1';
+    box.replaceChildren(f);
+    box.removeAttribute('role');
+    box.style.cursor = 'default';
+  };
+  box.addEventListener('click', open);
+  box.addEventListener('keydown', e => {
+    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); }
+  });
+  if (!canEmbed) {
+    const n = document.getElementById('embed-note');
+    if (n) n.hidden = false;
+  }
+}
+</script>
 <footer>
   <p>Независимый разбор 39-й Московской международной книжной ярмарки (2–6 сентября 2026, «Гостиный Двор»).
   Данные собраны из открытого API сайта <a href="https://events.mibf.info/2026/program">events.mibf.info</a>,

@@ -20,6 +20,35 @@
 <h2>Где ещё пишут</h2><ul><li><a href="https://www.instagram.com/bezladart/" rel="nofollow noopener" target="_blank">Маша Вышинская (@bezladart)</a><br><span class="small muted">✎ иллюстратор ✦ препод @b_d_illustration @mospolytech @kalachevaschool ☻ давайте сотрудничать! мой телеграм ↓. Follow. Message...</span></li><li><a href="https://dprofile.ru/mashavyshinskaya/followers" rel="nofollow noopener" target="_blank">Маша Вышинская — Подписчики специалиста в сфере ...</a><br><span class="small muted">Маша Вышинская — Подписчики | Узнать, кто подписан на специалиста в сфере дизайна на Dprofile.</span></li><li><a href="https://rgdb.ru/home/news/18331-detskaya-programma-na-knizhnom-festivale-krasnaya-ploshchad-2026" rel="nofollow noopener" target="_blank">Детская программа на Книжном фестивале «Красная ...</a><br><span class="small muted">... Маша Вышинская). Ярким событием станет презентация Детского интеллектуального центра #ЗнайЧитай, который открылся в РГДБ в 2025 году...</span></li></ul>
 <p class="small muted">Ссылки найдены автоматически через поисковую выдачу — возможны однофамильцы.</p>
 </main>
+
+<script>
+// Превью -> плеер по клику: iframe создаётся только для нажатой записи.
+// VK не отдаёт плеер в iframe с незащищённого origin (проверено: с http://127.0.0.1
+// показывает «Видео недоступно», с https тот же код играет); YouTube этим не страдает,
+// поэтому проверяем протокол только для vk.com.
+for (const box of document.querySelectorAll('.video[data-embed]')) {
+  const isVk = box.dataset.embed.includes('vk.com');
+  const canEmbed = !isVk || location.protocol === 'https:';
+  const open = () => {
+    if (!canEmbed) { window.open(box.dataset.url, '_blank', 'noopener'); return; }
+    const f = document.createElement('iframe');
+    f.allow = 'autoplay; encrypted-media; fullscreen; picture-in-picture';
+    f.allowFullscreen = true;
+    f.src = box.dataset.embed + (box.dataset.embed.includes('?') ? '&' : '?') + 'autoplay=1';
+    box.replaceChildren(f);
+    box.removeAttribute('role');
+    box.style.cursor = 'default';
+  };
+  box.addEventListener('click', open);
+  box.addEventListener('keydown', e => {
+    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); }
+  });
+  if (!canEmbed) {
+    const n = document.getElementById('embed-note');
+    if (n) n.hidden = false;
+  }
+}
+</script>
 <footer>
   <p>Независимый разбор 39-й Московской международной книжной ярмарки (2–6 сентября 2026, «Гостиный Двор»).
   Данные собраны из открытого API сайта <a href="https://events.mibf.info/2026/program">events.mibf.info</a>,

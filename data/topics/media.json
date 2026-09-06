@@ -1,0 +1,631 @@
+{
+ "ПРОГРАММА ДЛЯ ДЕТЕЙ": {
+  "videos": [
+   {
+    "id": "qB11YtOcFbI",
+    "title": "Лекция «Что читают дети и подростки XXI века: классика vs ...",
+    "url": "https://www.youtube.com/watch?v=qB11YtOcFbI",
+    "embed": "https://www.youtube.com/embed/qB11YtOcFbI",
+    "snippet": ""
+   },
+   {
+    "id": "ghKq83JR8fI",
+    "title": "Что случилось с детской литературой в России за 30 лет ...",
+    "url": "https://www.youtube.com/watch?v=ghKq83JR8fI",
+    "embed": "https://www.youtube.com/embed/ghKq83JR8fI",
+    "snippet": ""
+   },
+   {
+    "id": "sFUppFlUu5Y",
+    "title": "Книги для детей и подростков на Детской Полке",
+    "url": "https://www.youtube.com/watch?v=sFUppFlUu5Y",
+    "embed": "https://www.youtube.com/embed/sFUppFlUu5Y",
+    "snippet": ""
+   },
+   {
+    "id": "WQF7AeElr4o",
+    "title": "Как вырастить читателя? Лекция \"Игра в детской поэзии или ...",
+    "url": "https://www.youtube.com/watch?v=WQF7AeElr4o",
+    "embed": "https://www.youtube.com/embed/WQF7AeElr4o",
+    "snippet": ""
+   },
+   {
+    "id": "kGydfXHUHnE",
+    "title": "Лекция 8.1 | Недетские проблемы детской литературы",
+    "url": "https://www.youtube.com/watch?v=kGydfXHUHnE",
+    "embed": "https://www.youtube.com/embed/kGydfXHUHnE",
+    "snippet": ""
+   },
+   {
+    "id": "Ai6DO-xNhyU",
+    "title": "Мария Орлова о специфике современной детской ...",
+    "url": "https://www.youtube.com/watch?v=Ai6DO-xNhyU",
+    "embed": "https://www.youtube.com/embed/Ai6DO-xNhyU",
+    "snippet": ""
+   }
+  ]
+ },
+ "НОН-ФИКШН": {
+  "videos": [
+   {
+    "id": "JuFCELjb7No",
+    "title": "Что такое научпоп и научно-популярная литература?",
+    "url": "https://www.youtube.com/watch?v=JuFCELjb7No",
+    "embed": "https://www.youtube.com/embed/JuFCELjb7No",
+    "snippet": ""
+   },
+   {
+    "id": "n5fCX6DC-AQ",
+    "title": "польза или вред. Как выбирать и читать нон-фикшн",
+    "url": "https://www.youtube.com/watch?v=n5fCX6DC-AQ",
+    "embed": "https://www.youtube.com/embed/n5fCX6DC-AQ",
+    "snippet": ""
+   },
+   {
+    "id": "x2wZSZ-LW0w",
+    "title": "Герои книг и кино: за что мы их любим и ненавидим?",
+    "url": "https://www.youtube.com/watch?v=x2wZSZ-LW0w",
+    "embed": "https://www.youtube.com/embed/x2wZSZ-LW0w",
+    "snippet": ""
+   },
+   {
+    "id": "HK0QPZ8qpZo",
+    "title": "Глава, в которой Харари и книги про пофигизм почти всех ...",
+    "url": "https://www.youtube.com/watch?v=HK0QPZ8qpZo",
+    "embed": "https://www.youtube.com/embed/HK0QPZ8qpZo",
+    "snippet": ""
+   },
+   {
+    "id": "Z0R1pNiCaQg",
+    "title": "Игорь Иванов рассказывает о книге «Объясняя науку»",
+    "url": "https://www.youtube.com/watch?v=Z0R1pNiCaQg",
+    "embed": "https://www.youtube.com/embed/Z0R1pNiCaQg",
+    "snippet": ""
+   },
+   {
+    "id": "xQSaC9-2E-w",
+    "title": "НОВЫЕ КНИГИ НА ПОЛКАХ // (ИЛИ ХОРОШО ЗАБЫТОЕ ...",
+    "url": "https://www.youtube.com/watch?v=xQSaC9-2E-w",
+    "embed": "https://www.youtube.com/embed/xQSaC9-2E-w",
+    "snippet": ""
+   }
+  ],
+  "covers": [
+   {
+    "title": "Смешарики",
+    "shop": "Буквоед",
+    "url": "https://www.bookvoed.ru/product/smeshariki-istoriya-kultovoy-vselennoy-6802513",
+    "image": "https://ndc.bookvoed.ru/pim/products/images/06/d7/018f6103-bbbb-73e0-a55a-ec1146cb06d7.jpg?width=220&height=288&fit=bounds"
+   },
+   {
+    "title": "Тактическая медицина в зоне СВО",
+    "shop": "Буквоед",
+    "url": "https://www.bookvoed.ru/product/takticeskaa-medicina-v-zone-svo-8832657",
+    "image": "https://ndc.bookvoed.ru/pim/products/images/1b/4c/019f1e48-58a9-7e23-afee-2e957bfa1b4c.png?width=220&height=288&fit=bounds"
+   },
+   {
+    "title": "Тактическая медицина",
+    "shop": "Буквоед",
+    "url": "https://www.bookvoed.ru/product/takticheskaya-meditsina-pervaya-pomoshch-v-ekstremalnykh-usloviyakh-6723478",
+    "image": "https://ndc.bookvoed.ru/pim/products/images/ea/9a/019dd2a9-f75a-7c76-a293-b0c5ca5eea9a.jpg?width=220&height=288&fit=bounds"
+   },
+   {
+    "title": "Немой свидетель",
+    "shop": "Буквоед",
+    "url": "https://www.bookvoed.ru/product/nemoy-svidetel-4452201",
+    "image": "https://ndc.bookvoed.ru/pim/products/images/5b/1f/018f5dfa-5648-7f13-92c5-f2634ade5b1f.jpg?width=220&height=288&fit=bounds"
+   },
+   {
+    "title": "Как полетели динозавры. Ящеры-квадрокоптеры, обратные птицы и их потомки",
+    "shop": "Буквоед",
+    "url": "https://www.bookvoed.ru/product/kak-poleteli-dinozavry-asery-kvadrokoptery-obratnye-pticy-i-ih-potomki-8848980",
+    "image": "https://ndc.bookvoed.ru/pim/products/images/71/6a/01a042d1-e8dc-70d1-84ac-a0c9c631716a.jpg?width=220&height=288&fit=bounds"
+   },
+   {
+    "title": "Юристы и нейросети. Руководство к действию",
+    "shop": "Буквоед",
+    "url": "https://www.bookvoed.ru/product/uristy-i-nejroseti-rukovodstvo-k-dejstviu-8790312",
+    "image": "https://ndc.bookvoed.ru/pim/products/images/84/3e/019e6946-5e94-7380-ad5b-a0ce5706843e.jpg?width=220&height=288&fit=bounds"
+   },
+   {
+    "title": "Окно в Россию",
+    "shop": "Буквоед",
+    "url": "https://www.bookvoed.ru/product/okno-v-rossiyu-uchebnoe-posobie-po-russkomu-yazyku-kak-inostrannomu-dlya-prodvi-6415723",
+    "image": "https://ndc.bookvoed.ru/pim/products/images/02/0f/018ee06f-3297-788d-9d94-4045565e020f.jpg?width=220&height=288&fit=bounds"
+   }
+  ]
+ },
+ "ХУДОЖЕСТВЕННАЯ ЛИТЕРАТУРА": {
+  "videos": [
+   {
+    "id": "E0vLhWyDPA8",
+    "title": "Современная русская литература: сюжеты и лица - А.Н. ...",
+    "url": "https://www.youtube.com/watch?v=E0vLhWyDPA8",
+    "embed": "https://www.youtube.com/embed/E0vLhWyDPA8",
+    "snippet": ""
+   },
+   {
+    "id": "vLDnLktY-jA",
+    "title": "\"Contemporary Russian Prose\". Lecturer Alexandra Leskovskaya",
+    "url": "https://www.youtube.com/watch?v=vLDnLktY-jA",
+    "embed": "https://www.youtube.com/embed/vLDnLktY-jA",
+    "snippet": ""
+   },
+   {
+    "id": "sJwnfF_2mTU",
+    "title": "Современная русская литература и классика XX века",
+    "url": "https://www.youtube.com/watch?v=sJwnfF_2mTU",
+    "embed": "https://www.youtube.com/embed/sJwnfF_2mTU",
+    "snippet": ""
+   },
+   {
+    "id": "7s7EB74fbJ0",
+    "title": "Литературный процесс в XXI веке. Тренды. Лекция Егора ...",
+    "url": "https://www.youtube.com/watch?v=7s7EB74fbJ0",
+    "embed": "https://www.youtube.com/embed/7s7EB74fbJ0",
+    "snippet": ""
+   },
+   {
+    "id": "e_CR2hDimd8",
+    "title": "Лекция «Современная русская литература: что читать?»",
+    "url": "https://www.youtube.com/watch?v=e_CR2hDimd8",
+    "embed": "https://www.youtube.com/embed/e_CR2hDimd8",
+    "snippet": ""
+   },
+   {
+    "id": "SsuskCYIDNU",
+    "title": "Лекция Леонида Клейна \"Что такое современная русская ...",
+    "url": "https://www.youtube.com/watch?v=SsuskCYIDNU",
+    "embed": "https://www.youtube.com/embed/SsuskCYIDNU",
+    "snippet": ""
+   }
+  ],
+  "covers": [
+   {
+    "title": "Осенние крепости",
+    "shop": "Буквоед",
+    "url": "https://www.bookvoed.ru/product/osennie-kreposti-8769410",
+    "image": "https://ndc.bookvoed.ru/pim/products/images/77/7b/019abf22-7deb-7eb5-bff7-2ef06ec5777b.jpg?width=220&height=288&fit=bounds"
+   },
+   {
+    "title": "Покровские ворота",
+    "shop": "Буквоед",
+    "url": "https://www.bookvoed.ru/product/pokrovskie-vorota-1568940",
+    "image": "https://ndc.bookvoed.ru/pim/products/images/ef/43/018f5d0f-7add-795f-a47b-b4ec4de5ef43.jpg?width=220&height=288&fit=bounds"
+   },
+   {
+    "title": "Искусственный завет",
+    "shop": "Буквоед",
+    "url": "https://www.bookvoed.ru/product/iskusstvennyj-zavet-s-vlozeniem-8841576",
+    "image": "https://ndc.bookvoed.ru/pim/products/images/24/11/019fb8aa-40e8-7f5c-87cf-d3bcf8ec2411.jpg?width=220&height=288&fit=bounds"
+   },
+   {
+    "title": "О любви. Действие первое",
+    "shop": "Буквоед",
+    "url": "https://www.bookvoed.ru/product/dejstvie-pervoe-o-lubvi-8829452",
+    "image": "https://ndc.bookvoed.ru/pim/products/images/12/6e/019efa4a-9c75-7ab2-90d2-18aa5532126e.jpg?width=220&height=288&fit=bounds"
+   },
+   {
+    "title": "Братья Карамазовы",
+    "shop": "Буквоед",
+    "url": "https://www.bookvoed.ru/product/bratya-karamazovy-1568658",
+    "image": "https://ndc.bookvoed.ru/pim/products/images/df/20/018f5cdd-848c-74a3-a6e5-d24b6775df20.jpg?width=220&height=288&fit=bounds"
+   },
+   {
+    "title": "Бесы",
+    "shop": "Буквоед",
+    "url": "https://www.bookvoed.ru/product/besy-188053",
+    "image": "https://ndc.bookvoed.ru/pim/products/images/50/f6/0199e951-9a36-7836-a904-568cb4dd50f6.jpg?width=220&height=288&fit=bounds"
+   }
+  ]
+ },
+ "КНИГА +": {
+  "videos": [
+   {
+    "id": "ogAWq07p7gA",
+    "title": "Кинематографкак пространственно-временной конструктор»",
+    "url": "https://www.youtube.com/watch?v=ogAWq07p7gA",
+    "embed": "https://www.youtube.com/embed/ogAWq07p7gA",
+    "snippet": ""
+   },
+   {
+    "id": "8sH-dLgWSRM",
+    "title": "Основы драматургии. Очень просто.",
+    "url": "https://www.youtube.com/watch?v=8sH-dLgWSRM",
+    "embed": "https://www.youtube.com/embed/8sH-dLgWSRM",
+    "snippet": ""
+   },
+   {
+    "id": "Cq1_Qw5uebY",
+    "title": "«Остановите пленку, это кино я уже смотрел». Архетипы и ...",
+    "url": "https://www.youtube.com/watch?v=Cq1_Qw5uebY",
+    "embed": "https://www.youtube.com/embed/Cq1_Qw5uebY",
+    "snippet": ""
+   },
+   {
+    "id": "Po3Sl6ysBUQ",
+    "title": "КНИГАМИ ПО ВИРУСУ!",
+    "url": "https://www.youtube.com/watch?v=Po3Sl6ysBUQ",
+    "embed": "https://www.youtube.com/embed/Po3Sl6ysBUQ",
+    "snippet": ""
+   },
+   {
+    "id": "mi2RY8D4TNE",
+    "title": "Джейн Остин: экранизации и текст. Дискуссия Екатерины ...",
+    "url": "https://www.youtube.com/watch?v=mi2RY8D4TNE",
+    "embed": "https://www.youtube.com/embed/mi2RY8D4TNE",
+    "snippet": ""
+   },
+   {
+    "id": "HNBF3FkRYe8",
+    "title": "СЛУЖЕБНЫЙ РОМАН - режиссерский разбор (ВТОРАЯ ...",
+    "url": "https://www.youtube.com/watch?v=HNBF3FkRYe8",
+    "embed": "https://www.youtube.com/embed/HNBF3FkRYe8",
+    "snippet": ""
+   }
+  ],
+  "covers": [
+   {
+    "title": "Лес",
+    "shop": "Буквоед",
+    "url": "https://www.bookvoed.ru/product/les-6892031",
+    "image": "https://ndc.bookvoed.ru/pim/products/images/bb/9b/0196f45c-c45c-702f-acb5-a1f1a217bb9b.jpg?width=220&height=288&fit=bounds"
+   },
+   {
+    "title": "Говорящий свёрток",
+    "shop": "Буквоед",
+    "url": "https://www.bookvoed.ru/product/darrell-dzh-govoryashchiy-svertok-vch-5291947",
+    "image": "https://ndc.bookvoed.ru/pim/products/images/9b/3c/018edf8e-3e71-73fc-b74e-e426ac5c9b3c.jpg?width=220&height=288&fit=bounds"
+   }
+  ]
+ },
+ "МОЛОДЁЖНАЯ ЛИТЕРАТУРА": {
+  "videos": [
+   {
+    "id": "HxgfvqxAS_M",
+    "title": "Оцениваю 70 популярных книг YOUNG ADULTот худших ...",
+    "url": "https://www.youtube.com/watch?v=HxgfvqxAS_M",
+    "embed": "https://www.youtube.com/embed/HxgfvqxAS_M",
+    "snippet": ""
+   },
+   {
+    "id": "edShxdGhKNc",
+    "title": "ЧТО ПОЧИТАТЬ ПОДРОСТКУ young adult книги для ...",
+    "url": "https://www.youtube.com/watch?v=edShxdGhKNc",
+    "embed": "https://www.youtube.com/embed/edShxdGhKNc",
+    "snippet": ""
+   },
+   {
+    "id": "ZUXtIKXjT0Q",
+    "title": "ВЫ ЗАХОТИТЕ ИХ КУПИТЬ Что почитать в 2025 году? ...",
+    "url": "https://www.youtube.com/watch?v=ZUXtIKXjT0Q",
+    "embed": "https://www.youtube.com/embed/ZUXtIKXjT0Q",
+    "snippet": ""
+   },
+   {
+    "id": "9Ktdu8tUCdw",
+    "title": "ЛУЧШЕЕ ФЭНТЕЗИ В МОЕЙ ЖИЗНИ! ТОП-10 циклов ...",
+    "url": "https://www.youtube.com/watch?v=9Ktdu8tUCdw",
+    "embed": "https://www.youtube.com/embed/9Ktdu8tUCdw",
+    "snippet": ""
+   },
+   {
+    "id": "pDeLuxSvMx4",
+    "title": "ЧТО ПОЧИТАТЬ ПОДРОСТКАМ? Подборка книг. Книги для ...",
+    "url": "https://www.youtube.com/watch?v=pDeLuxSvMx4",
+    "embed": "https://www.youtube.com/embed/pDeLuxSvMx4",
+    "snippet": ""
+   },
+   {
+    "id": "7BTjii0RB_w",
+    "title": "ТУР ПО КНИЖНЫМ ПОЛКАМ! // МОИ ЛЮБИМЫЕ КНИГИ",
+    "url": "https://www.youtube.com/watch?v=7BTjii0RB_w",
+    "embed": "https://www.youtube.com/embed/7BTjii0RB_w",
+    "snippet": ""
+   }
+  ],
+  "covers": [
+   {
+    "title": "На острие клинка",
+    "shop": "Буквоед",
+    "url": "https://www.bookvoed.ru/product/na-ostrie-klinka-8734153",
+    "image": "https://ndc.bookvoed.ru/pim/products/images/55/54/0198a3c2-02ad-76d0-b4b3-11f16ca15554.jpg?width=220&height=288&fit=bounds"
+   },
+   {
+    "title": "Призраки старого кладбища",
+    "shop": "Буквоед",
+    "url": "https://www.bookvoed.ru/product/prizraki-starogo-kladbisa-8807575",
+    "image": "https://ndc.bookvoed.ru/pim/products/images/39/b3/019e4124-f65d-7336-ad56-d9f4ac2239b3.jpg?width=220&height=288&fit=bounds"
+   },
+   {
+    "title": "Хтонь за околицей",
+    "shop": "Читай-город",
+    "url": "https://www.chitai-gorod.ru/product/hton-za-okolicej-3165637",
+    "image": "https://content.img-gorod.ru/pim/products/images/75/ee/019f6ed9-acb0-7e12-88b1-af0598fb75ee.jpg"
+   },
+   {
+    "title": "Монстры с Минской пропиской",
+    "shop": "Буквоед",
+    "url": "https://www.bookvoed.ru/product/monstry-s-minskoj-propiskoj-8850822",
+    "image": "https://ndc.bookvoed.ru/pim/products/images/32/75/01a06b69-05eb-7ac5-a472-a02388bd3275.jpg?width=220&height=288&fit=bounds"
+   },
+   {
+    "title": "Не психуй! Забей на тревогу",
+    "shop": "Буквоед",
+    "url": "https://www.bookvoed.ru/product/ne-psihuj-zabej-na-trevogu-8751661",
+    "image": "https://ndc.bookvoed.ru/pim/products/images/78/da/019c8f67-46b7-7b34-a3ab-c9d9312278da.jpg?width=220&height=288&fit=bounds"
+   },
+   {
+    "title": "Щучьи сплетни",
+    "shop": "Буквоед",
+    "url": "https://www.bookvoed.ru/product/suc-i-spletni-8803755",
+    "image": "https://ndc.bookvoed.ru/pim/products/images/5e/97/019d532f-9f73-74c5-845b-79f9f0165e97.jpg?width=220&height=288&fit=bounds"
+   },
+   {
+    "title": "Заброшенный лагерь",
+    "shop": "Буквоед",
+    "url": "https://www.bookvoed.ru/product/zabrosennyj-lager-8839979",
+    "image": "https://ndc.bookvoed.ru/pim/products/images/0e/15/01a05bc2-927c-7207-a72a-8757aadc0e15.jpg?width=220&height=288&fit=bounds"
+   },
+   {
+    "title": "Летний лагерь",
+    "shop": "Буквоед",
+    "url": "https://www.bookvoed.ru/product/letnij-lager-7652802",
+    "image": "https://ndc.bookvoed.ru/pim/products/images/c3/f7/0197edf5-fc6f-7957-beee-c0c9e9e6c3f7.jpg?width=220&height=288&fit=bounds"
+   },
+   {
+    "title": "Магия тыквенных огней",
+    "shop": "Буквоед",
+    "url": "https://www.bookvoed.ru/product/magia-tykvennyh-ognej-8827771",
+    "image": "https://ndc.bookvoed.ru/pim/products/images/d1/c2/019fd5f1-4321-7ea2-81e8-1a3845ddd1c2.jpg?width=220&height=288&fit=bounds"
+   },
+   {
+    "title": "Четвёртое крыло",
+    "shop": "Буквоед",
+    "url": "https://www.bookvoed.ru/product/chetvertoe-krylo-6773768",
+    "image": "https://ndc.bookvoed.ru/pim/products/images/1e/36/0194612e-c1aa-77ef-b35f-892218e71e36.jpg?width=220&height=288&fit=bounds"
+   },
+   {
+    "title": "На высоте чувств",
+    "shop": "Буквоед",
+    "url": "https://www.bookvoed.ru/product/na-vysote-cuvstv-kniga-1-mera-predannosti-komplekt-s-mercom-8843112",
+    "image": "https://ndc.bookvoed.ru/pim/products/images/8e/fa/019fd22b-527f-707b-977f-705cf7bd8efa.jpg?width=220&height=288&fit=bounds"
+   },
+   {
+    "title": "Всё, что мы не завершили",
+    "shop": "Буквоед",
+    "url": "https://www.bookvoed.ru/product/vse-cto-my-ne-zaversili-8788589",
+    "image": "https://ndc.bookvoed.ru/pim/products/images/00/12/019c478d-0fbd-78c0-adc0-9bccafcb0012.jpg?width=220&height=288&fit=bounds"
+   },
+   {
+    "title": "Доля вероятности",
+    "shop": "Буквоед",
+    "url": "https://www.bookvoed.ru/product/dolya-veroyatnosti-7698938",
+    "image": "https://ndc.bookvoed.ru/pim/products/images/cb/4a/01934703-aecc-7d83-aa59-a6939acacb4a.jpg?width=220&height=288&fit=bounds"
+   }
+  ]
+ },
+ "ПОЭЗИЯ": {
+  "videos": [
+   {
+    "id": "6PuMSAgzk4M",
+    "title": "\"Круг чтения\". Вечер современной поэзии (27 марта 2020)",
+    "url": "https://www.youtube.com/watch?v=6PuMSAgzk4M",
+    "embed": "https://www.youtube.com/embed/6PuMSAgzk4M",
+    "snippet": ""
+   },
+   {
+    "id": "S5Z_M0iz_JE",
+    "title": "Ночь поэзии в МХТ имени А. П. Чехова (12 сентября 2020). ...",
+    "url": "https://www.youtube.com/watch?v=S5Z_M0iz_JE",
+    "embed": "https://www.youtube.com/embed/S5Z_M0iz_JE",
+    "snippet": ""
+   },
+   {
+    "id": "5J_D002LCOQ",
+    "title": "Поэтические чтения современных российских поэтов и ...",
+    "url": "https://www.youtube.com/watch?v=5J_D002LCOQ",
+    "embed": "https://www.youtube.com/embed/5J_D002LCOQ",
+    "snippet": ""
+   },
+   {
+    "id": "2Ly_hK9e51g",
+    "title": "Поэтический вечер \"Скажи: люблю\", Санкт-Петербург 2023",
+    "url": "https://www.youtube.com/watch?v=2Ly_hK9e51g",
+    "embed": "https://www.youtube.com/embed/2Ly_hK9e51g",
+    "snippet": ""
+   },
+   {
+    "id": "i1SMyT6tqIE",
+    "title": "Ночь поэзии в МХТ имени А. П. Чехова (12 сентября 2020). ...",
+    "url": "https://www.youtube.com/watch?v=i1SMyT6tqIE",
+    "embed": "https://www.youtube.com/embed/i1SMyT6tqIE",
+    "snippet": ""
+   },
+   {
+    "id": "dDeWIQAER6g",
+    "title": "Инна Сидоренко \"Цвет времени\". Музыкально-поэтический ...",
+    "url": "https://www.youtube.com/watch?v=dDeWIQAER6g",
+    "embed": "https://www.youtube.com/embed/dDeWIQAER6g",
+    "snippet": ""
+   }
+  ],
+  "covers": [
+   {
+    "title": "География в стихах",
+    "shop": "Буквоед",
+    "url": "https://www.bookvoed.ru/product/geografia-v-stihah-muza-dal-nih-stranstvij-12-8825511",
+    "image": "https://ndc.bookvoed.ru/pim/products/images/f5/5d/019e982c-ea4b-7283-b66a-1a92b806f55d.jpg?width=220&height=288&fit=bounds"
+   },
+   {
+    "title": "Проза в царапинах",
+    "shop": "Буквоед",
+    "url": "https://www.bookvoed.ru/product/proza-v-carapinah-8804036",
+    "image": "https://ndc.bookvoed.ru/pim/products/images/f4/42/019d629b-95cc-777f-abc7-b74aa86af442.jpg?width=220&height=288&fit=bounds"
+   },
+   {
+    "title": "Шахтёрская дочь",
+    "shop": "Буквоед",
+    "url": "https://www.bookvoed.ru/product/shakhtyerskaya-doch-7098480",
+    "image": "https://ndc.bookvoed.ru/pim/products/images/41/1c/019c8f74-6b59-7ee2-971d-83c6f900411c.jpg?width=220&height=288&fit=bounds"
+   }
+  ]
+ },
+ "ДЕЛОВАЯ ПРОГРАММА": {
+  "videos": [
+   {
+    "id": "grEuKjgdBw0",
+    "title": "Книжная отрасль России: движение навстречу читателю». 1 ...",
+    "url": "https://www.youtube.com/watch?v=grEuKjgdBw0",
+    "embed": "https://www.youtube.com/embed/grEuKjgdBw0",
+    "snippet": ""
+   },
+   {
+    "id": "Rj5_ZxAsqY0",
+    "title": "Самиздат в России: время экспериментов и экономики ...",
+    "url": "https://www.youtube.com/watch?v=Rj5_ZxAsqY0",
+    "embed": "https://www.youtube.com/embed/Rj5_ZxAsqY0",
+    "snippet": ""
+   },
+   {
+    "id": "k-YS75wn958",
+    "title": "Как молодым авторам добиться интереса от издателя",
+    "url": "https://www.youtube.com/watch?v=k-YS75wn958",
+    "embed": "https://www.youtube.com/embed/k-YS75wn958",
+    "snippet": ""
+   },
+   {
+    "id": "LZflzdqWChA",
+    "title": "2$ млн в месяц на электронных книгах. IT «убивает",
+    "url": "https://www.youtube.com/watch?v=LZflzdqWChA",
+    "embed": "https://www.youtube.com/embed/LZflzdqWChA",
+    "snippet": ""
+   },
+   {
+    "id": "q0o0bUDwFw8",
+    "title": "Как подработка стала книжной империей? Олег Новиков о ...",
+    "url": "https://www.youtube.com/watch?v=q0o0bUDwFw8",
+    "embed": "https://www.youtube.com/embed/q0o0bUDwFw8",
+    "snippet": ""
+   },
+   {
+    "id": "KdN-lE937Z8",
+    "title": "Денис Давыдов: малые тиражи и будущее бумажной книги",
+    "url": "https://www.youtube.com/watch?v=KdN-lE937Z8",
+    "embed": "https://www.youtube.com/embed/KdN-lE937Z8",
+    "snippet": ""
+   }
+  ],
+  "covers": [
+   {
+    "title": "Культурный код",
+    "shop": "Буквоед",
+    "url": "https://www.bookvoed.ru/product/kulturnyy-kod-kak-my-zhivem-chto-pokupaem-i-pochemu-7095234",
+    "image": "https://ndc.bookvoed.ru/pim/products/images/30/c9/019cd71f-71ad-725d-a817-17dd204230c9.jpg?width=220&height=288&fit=bounds"
+   }
+  ]
+ },
+ "КОМИКСЫ": {
+  "videos": [
+   {
+    "id": "ZqRi2GoZBFc",
+    "title": "История аниме. Лекция.",
+    "url": "https://www.youtube.com/watch?v=ZqRi2GoZBFc",
+    "embed": "https://www.youtube.com/embed/ZqRi2GoZBFc",
+    "snippet": ""
+   },
+   {
+    "id": "g7i7q_aP4O8",
+    "title": "[ ЛИКИ МАНЬХУА: КРАТКАЯ ИСТОРИЯ ВОСХОЖДЕНИЯ ...",
+    "url": "https://www.youtube.com/watch?v=g7i7q_aP4O8",
+    "embed": "https://www.youtube.com/embed/g7i7q_aP4O8",
+    "snippet": ""
+   },
+   {
+    "id": "-L-UrH9dlOU",
+    "title": "История азиатских комиксов",
+    "url": "https://www.youtube.com/watch?v=-L-UrH9dlOU",
+    "embed": "https://www.youtube.com/embed/-L-UrH9dlOU",
+    "snippet": ""
+   },
+   {
+    "id": "eYbZmY0rKk8",
+    "title": "Армянские комиксы: от маленькой страны до диаспоры по ...",
+    "url": "https://www.youtube.com/watch?v=eYbZmY0rKk8",
+    "embed": "https://www.youtube.com/embed/eYbZmY0rKk8",
+    "snippet": ""
+   },
+   {
+    "id": "qMi5e09wJbg",
+    "title": "История комиксов разных стран. Комиксы США и Японии. ...",
+    "url": "https://www.youtube.com/watch?v=qMi5e09wJbg",
+    "embed": "https://www.youtube.com/embed/qMi5e09wJbg",
+    "snippet": ""
+   },
+   {
+    "id": "H-5PVF6qRh4",
+    "title": "Презентация Фили Братухина на тему «Как работать с ...",
+    "url": "https://www.youtube.com/watch?v=H-5PVF6qRh4",
+    "embed": "https://www.youtube.com/embed/H-5PVF6qRh4",
+    "snippet": ""
+   }
+  ],
+  "covers": [
+   {
+    "title": "Ван-Пис",
+    "shop": "Буквоед",
+    "url": "https://www.bookvoed.ru/product/one-piece-bolshoy-kush-kn-1-5393469",
+    "image": "https://ndc.bookvoed.ru/pim/products/images/2c/4a/018f5ca3-9593-70a8-abc2-c41bc8852c4a.jpg?width=220&height=288&fit=bounds"
+   }
+  ]
+ },
+ "БЕЗ ТЕМЫ": {
+  "covers": []
+ },
+ "ПРОГРАММА ДЛЯ ДЕТЕЙ ": {
+  "covers": [
+   {
+    "title": "Пластилиновый Жако",
+    "shop": "Читай-город",
+    "url": "https://www.chitai-gorod.ru/product/plastilinovyj-zako-3134327",
+    "image": "https://content.img-gorod.ru/pim/products/images/2a/72/019aba89-ed3c-7056-a09b-36df221d2a72.jpg"
+   },
+   {
+    "title": "Репка",
+    "shop": "Буквоед",
+    "url": "https://www.bookvoed.ru/product/knizki-kartonki-skazki-repka-8716519",
+    "image": "https://ndc.bookvoed.ru/pim/products/images/c5/17/0197a5ec-7dd0-7d11-8afa-a25594fbc517.jpg?width=220&height=288&fit=bounds"
+   },
+   {
+    "title": "Винни-Пух",
+    "shop": "Буквоед",
+    "url": "https://www.bookvoed.ru/product/miln-a-vinni-pukh-i-vse-vse-vse-tsv--2235505",
+    "image": "https://ndc.bookvoed.ru/pim/products/images/e5/06/018edf1f-d075-7aa4-90f1-58f1711ce506.jpg?width=220&height=288&fit=bounds"
+   },
+   {
+    "title": "За 1000 лет до Тани Гроттер",
+    "shop": "Буквоед",
+    "url": "https://www.bookvoed.ru/product/saga-o-skole-vozdej-za-1000-let-do-tani-grotter-1-8829932",
+    "image": "https://ndc.bookvoed.ru/pim/products/images/a8/c9/019fc722-a421-7da8-b91b-ef057a59a8c9.jpg?width=220&height=288&fit=bounds"
+   },
+   {
+    "title": "В стране невыученных уроков",
+    "shop": "Буквоед",
+    "url": "https://www.bookvoed.ru/product/v-strane-nevyuchennykh-urokov-653721",
+    "image": "https://ndc.bookvoed.ru/pim/products/images/73/35/018ed2c9-ddb8-7d38-9bfc-3f5b2b297335.jpg?width=220&height=288&fit=bounds"
+   },
+   {
+    "title": "Наше лето",
+    "shop": "Буквоед",
+    "url": "https://www.bookvoed.ru/product/nase-leto-8846416",
+    "image": "https://ndc.bookvoed.ru/pim/products/images/bd/d3/01a02356-0370-7b3a-b1aa-ac192654bdd3.jpg?width=220&height=288&fit=bounds"
+   },
+   {
+    "title": "Буратино",
+    "shop": "Буквоед",
+    "url": "https://www.bookvoed.ru/product/priklyucheniya-buratino-648245",
+    "image": "https://ndc.bookvoed.ru/pim/products/images/53/b5/018ed2c9-e4a1-7999-8e13-9c4e3ddb53b5.jpg?width=220&height=288&fit=bounds"
+   }
+  ]
+ }
+}
