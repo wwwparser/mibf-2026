@@ -155,11 +155,14 @@ main{max-width:1080px;margin:0 auto;padding:28px 20px 60px}
 .top nav a{color:var(--mut);text-decoration:none;padding:4px 0;border-bottom:2px solid transparent}
 .top nav a:hover{color:var(--acc);border-color:var(--acc)}
 h1{font-size:34px;line-height:1.15;margin:.2em 0 .4em}
-h2{font-size:24px;margin:1.8em 0 .6em;border-bottom:1px solid var(--line);padding-bottom:.3em}
+h2{font-size:24px;margin:1.8em 0 .6em;border-bottom:1px solid var(--line);padding-bottom:.3em;scroll-margin-top:70px}
 h3{font-size:18px;margin:1.4em 0 .4em}
 .lead{font-size:19px;color:var(--mut)}
 .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:24px 0}
-.stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:block}
+a.stat{text-decoration:none;color:inherit;transition:border-color .15s,transform .15s}
+a.stat:hover{border-color:var(--acc);transform:translateY(-2px)}
+a.stat:hover b{text-decoration:underline}
 .stat b{display:block;font-size:30px;line-height:1.1;color:var(--acc)}
 .stat span{font:13px/1.3 system-ui,sans-serif;color:var(--mut)}
 table{border-collapse:collapse;width:100%;font:14px/1.5 system-ui,sans-serif;margin:14px 0}
@@ -269,12 +272,12 @@ def build_index(program, exhibitors, n_books: int, n_people: int) -> str:
 открытого API самой ярмарки, разобрали пресс-релиз и посчитали, что там было.</p>
 
 <div class="stats">
-  <div class="stat"><b>{len(evs)}</b><span>событий в программе</span></div>
-  <div class="stat"><b>{len(exhibitors)}</b><span>участников со стендами</span></div>
-  <div class="stat"><b>{len(by_venue)}</b><span>площадок</span></div>
-  <div class="stat"><b>{n_people}</b><span>спикеров</span></div>
-  <div class="stat"><b>{n_books}</b><span>книг упомянуто</span></div>
-  <div class="stat"><b>{len(orgs)}</b><span>организаторов событий</span></div>
+  <a class="stat" href="program.html"><b>{len(evs)}</b><span>событий в программе</span></a>
+  <a class="stat" href="exhibitors.html"><b>{len(exhibitors)}</b><span>участников со стендами</span></a>
+  <a class="stat" href="#venues"><b>{len(by_venue)}</b><span>площадок</span></a>
+  <a class="stat" href="people.html"><b>{n_people}</b><span>спикеров</span></a>
+  <a class="stat" href="books.html"><b>{n_books}</b><span>книг упомянуто</span></a>
+  <a class="stat" href="#organizers"><b>{len(orgs)}</b><span>организаторов событий</span></a>
 </div>
 
 <h2>Пять дней</h2>
@@ -282,7 +285,7 @@ def build_index(program, exhibitors, n_books: int, n_people: int) -> str:
 посетитель, а профессиональная часть сосредоточена в первые дни.</p>
 {table(Counter({day_titles[k]: v for k, v in by_day.items()}), "День")}
 
-<h2>Площадки</h2>
+<h2 id="venues">Площадки</h2>
 <p>13 тематических площадок в «Гостином Дворе» плюс события за его пределами —
 в ЦДЛ, Электротеатре «Станиславский», отеле Four Seasons и Агентстве креативных индустрий.</p>
 {table(by_venue, "Площадка")}
@@ -295,7 +298,7 @@ def build_index(program, exhibitors, n_books: int, n_people: int) -> str:
 <h2>Темы</h2>
 {table(by_topic, "Тема")}
 
-<h2>Кто держит повестку</h2>
+<h2 id="organizers">Кто держит повестку</h2>
 <p>Топ организаторов по числу заявленных событий. По этому списку видно, чья это на самом
 деле программа.</p>
 {table(orgs, "Организатор", top=20)}
