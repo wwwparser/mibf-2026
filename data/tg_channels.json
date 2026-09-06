@@ -1,0 +1,563 @@
+{
+ "count": 93,
+ "channels": [
+  {
+   "username": "mibf_info",
+   "exhibitor": "ММКЯ (канал ярмарки)",
+   "group": "Организатор",
+   "url": "https://t.me/mibf_info"
+  },
+  {
+   "username": "Artmif_21",
+   "exhibitor": "АРТМФ",
+   "group": "Издательство",
+   "url": "https://t.me/Artmif_21"
+  },
+  {
+   "username": "Chernaya100konsultant",
+   "exhibitor": "Чёрная сотня",
+   "group": "Издательство",
+   "url": "https://t.me/Chernaya100konsultant"
+  },
+  {
+   "username": "Klara_Rutt",
+   "exhibitor": "Клуб писателей Почерк музы",
+   "group": "Общественная организация и фонд",
+   "url": "https://t.me/Klara_Rutt"
+  },
+  {
+   "username": "Knijniy_v_klube",
+   "exhibitor": "СЕАНС",
+   "group": "Издательство",
+   "url": "https://t.me/Knijniy_v_klube"
+  },
+  {
+   "username": "MuseumGON",
+   "exhibitor": "Музей Гаража особого назначения ФСО России. Издательство Мерлон",
+   "group": "Издательство",
+   "url": "https://t.me/MuseumGON"
+  },
+  {
+   "username": "RUDNstudentslife",
+   "exhibitor": "Российский университет дружбы народов имени Патриса Лумумбы",
+   "group": "Образование и наука",
+   "url": "http://t.me/RUDNstudentslife"
+  },
+  {
+   "username": "advokat_ozerskii",
+   "exhibitor": "Озёрский Игорь Дмитриевич",
+   "group": "Прочее",
+   "url": "https://t.me/advokat_ozerskii"
+  },
+  {
+   "username": "agraf_books",
+   "exhibitor": "АГРАФ",
+   "group": "Издательство",
+   "url": "https://t.me/agraf_books"
+  },
+  {
+   "username": "almamater_books",
+   "exhibitor": "АЛЬМА МАТЕР",
+   "group": "Издательство",
+   "url": "https://t.me/almamater_books"
+  },
+  {
+   "username": "alter_lit",
+   "exhibitor": "Издательский дом Альтерлит",
+   "group": "Издательство",
+   "url": "https://t.me/alter_lit"
+  },
+  {
+   "username": "anthologybooks",
+   "exhibitor": "Антология",
+   "group": "Издательство",
+   "url": "https://t.me/anthologybooks"
+  },
+  {
+   "username": "apricotbooks",
+   "exhibitor": "Абрикобукс",
+   "group": "Издательство",
+   "url": "https://t.me/apricotbooks"
+  },
+  {
+   "username": "archipelag_publ",
+   "exhibitor": "Издательство Архипелаг",
+   "group": "Издательство",
+   "url": "https://t.me/archipelag_publ"
+  },
+  {
+   "username": "argumenti",
+   "exhibitor": "Аргументы недели",
+   "group": "Издательство",
+   "url": "https://t.me/argumenti"
+  },
+  {
+   "username": "azbooka_colibri",
+   "exhibitor": "МАХАОН",
+   "group": "Издательство",
+   "url": "https://t.me/azbooka_colibri"
+  },
+  {
+   "username": "bakhrushinmuseum",
+   "exhibitor": "Бахрушинский театральный музей",
+   "group": "Государственная организация",
+   "url": "https://t.me/bakhrushinmuseum"
+  },
+  {
+   "username": "bookmarkbooks",
+   "exhibitor": "Детское издательство БУКМАРК",
+   "group": "Издательство",
+   "url": "https://t.me/bookmarkbooks"
+  },
+  {
+   "username": "books_four",
+   "exhibitor": "Издательство ЧЕТЫРЕ",
+   "group": "Издательство",
+   "url": "https://t.me/books_four"
+  },
+  {
+   "username": "boombabook",
+   "exhibitor": "БУМБА",
+   "group": "Издательство",
+   "url": "https://t.me/boombabook"
+  },
+  {
+   "username": "boslen_publishers",
+   "exhibitor": "Бослен",
+   "group": "Издательство",
+   "url": "https://t.me/boslen_publishers"
+  },
+  {
+   "username": "bulgakovmuseum",
+   "exhibitor": "Музей Михаила Булгакова",
+   "group": "Прочее",
+   "url": "https://t.me/bulgakovmuseum"
+  },
+  {
+   "username": "clevermedia",
+   "exhibitor": "Издательство Clever",
+   "group": "Издательство",
+   "url": "https://t.me/clevermedia"
+  },
+  {
+   "username": "clevertrendbooks",
+   "exhibitor": "ТРЕНДБУКС",
+   "group": "Издательство",
+   "url": "https://t.me/clevertrendbooks"
+  },
+  {
+   "username": "content_publish",
+   "exhibitor": "Контэнт",
+   "group": "Издательство",
+   "url": "https://t.me/content_publish"
+  },
+  {
+   "username": "delovebook",
+   "exhibitor": "Деловая книга",
+   "group": "Издательство",
+   "url": "https://t.me/delovebook"
+  },
+  {
+   "username": "detiknigi",
+   "exhibitor": "Магазинчик \"Я люблю читать\"",
+   "group": "Книжный магазин и дистрибуция",
+   "url": "https://t.me/detiknigi"
+  },
+  {
+   "username": "detishkipodrastishki",
+   "exhibitor": "Детишки-Подрастишки",
+   "group": "Издательство",
+   "url": "https://t.me/detishkipodrastishki"
+  },
+  {
+   "username": "dreambook_publishing",
+   "exhibitor": "Издательство Дримбук",
+   "group": "Издательство",
+   "url": "https://t.me/dreambook_publishing"
+  },
+  {
+   "username": "drugoepublishing",
+   "exhibitor": "Другое издательство",
+   "group": "Издательство",
+   "url": "https://t.me/drugoepublishing"
+  },
+  {
+   "username": "eksmo",
+   "exhibitor": "Эксмо Детская литература",
+   "group": "Издательство",
+   "url": "https://t.me/eksmo"
+  },
+  {
+   "username": "financial_freee",
+   "exhibitor": "Новосёлов Павел",
+   "group": "Издательство",
+   "url": "https://t.me/financial_freee"
+  },
+  {
+   "username": "gaidarpress",
+   "exhibitor": "Издательство Института Гайдара",
+   "group": "Образование и наука",
+   "url": "https://t.me/gaidarpress"
+  },
+  {
+   "username": "gitis_official",
+   "exhibitor": "ГИТИС",
+   "group": "Образование и наука",
+   "url": "https://t.me/gitis_official"
+  },
+  {
+   "username": "grafo_publishinglab",
+   "exhibitor": "Издательская лаборатория ГРАФО",
+   "group": "Издательство",
+   "url": "https://t.me/grafo_publishinglab"
+  },
+  {
+   "username": "idgorodets",
+   "exhibitor": "ГОРОДЕЦ",
+   "group": "Издательство",
+   "url": "https://t.me/idgorodets/"
+  },
+  {
+   "username": "iditevbany2024",
+   "exhibitor": "СМОТРОВ НовСтарЛит",
+   "group": "Издательство",
+   "url": "https://telegram.me/https://t.me/iditevbany2024"
+  },
+  {
+   "username": "idm_kniga",
+   "exhibitor": "ИД Мещерякова",
+   "group": "Издательство",
+   "url": "https://t.me/idm_kniga"
+  },
+  {
+   "username": "istorichka_official",
+   "exhibitor": "Историческая библиотека",
+   "group": "Библиотека",
+   "url": "https://t.me/istorichka_official"
+  },
+  {
+   "username": "izak_izak",
+   "exhibitor": "Институт законодательства и сравнительного правоведения при Правительстве Российской Федерации",
+   "group": "Образование и наука",
+   "url": "https://t.me/izak_izak"
+  },
+  {
+   "username": "izdatelstvo_veche",
+   "exhibitor": "Издательство ВЕЧЕ",
+   "group": "Издательство",
+   "url": "https://t.me/izdatelstvo_veche"
+  },
+  {
+   "username": "izdatelstvoast",
+   "exhibitor": "Малыш",
+   "group": "Издательство",
+   "url": "https://t.me/izdatelstvoast"
+  },
+  {
+   "username": "izdatelstvoogi",
+   "exhibitor": "ОГИ",
+   "group": "Издательство",
+   "url": "https://t.me/izdatelstvoogi"
+  },
+  {
+   "username": "izentr",
+   "exhibitor": "Издательство Интеллект-Центр",
+   "group": "Издательство",
+   "url": "https://t.me/izentr"
+  },
+  {
+   "username": "kompasgid",
+   "exhibitor": "КомпасГид",
+   "group": "Издательство",
+   "url": "https://t.me/kompasgid"
+  },
+  {
+   "username": "kp_book",
+   "exhibitor": "Комсомольская правда",
+   "group": "СМИ и медиа",
+   "url": "https://t.me/kp_book"
+  },
+  {
+   "username": "kpolemuzeon",
+   "exhibitor": "КУЧКОВО ПОЛЕ МУЗЕОН",
+   "group": "Издательство",
+   "url": "https://t.me/kpolemuzeon"
+  },
+  {
+   "username": "labzna",
+   "exhibitor": "Лаборатория знаний",
+   "group": "Издательство",
+   "url": "https://t.me/labzna"
+  },
+  {
+   "username": "ladomirbook",
+   "exhibitor": "ЛАДОМИР",
+   "group": "Издательство",
+   "url": "https://t.me/ladomirbook"
+  },
+  {
+   "username": "legionpublishing",
+   "exhibitor": "Издательство ЛЕГИОН",
+   "group": "Издательство",
+   "url": "https://t.me/legionpublishing"
+  },
+  {
+   "username": "leninka_ru",
+   "exhibitor": "СМОТРИ КОММЕНТАРИЙ",
+   "group": "Библиотека",
+   "url": "https://t.me/leninka_ru"
+  },
+  {
+   "username": "limonadbooks",
+   "exhibitor": "Издательство Лимонад",
+   "group": "Издательство",
+   "url": "https://t.me/limonadbooks"
+  },
+  {
+   "username": "literaturemuseum",
+   "exhibitor": "ГМИРЛИ им. В. И. Даля",
+   "group": "Государственная организация",
+   "url": "https://t.me/literaturemuseum"
+  },
+  {
+   "username": "literaturnayagazeta",
+   "exhibitor": "Литературная газета",
+   "group": "СМИ и медиа",
+   "url": "https://t.me/literaturnayagazeta"
+  },
+  {
+   "username": "livebooks",
+   "exhibitor": "Лайвбук",
+   "group": "Издательство",
+   "url": "https://t.me/livebooks"
+  },
+  {
+   "username": "lunalitera",
+   "exhibitor": "Издательство Lunalitera",
+   "group": "Издательство",
+   "url": "https://t.me/lunalitera"
+  },
+  {
+   "username": "magickamchatka",
+   "exhibitor": "Издательство Пресс Код",
+   "group": "Издательство",
+   "url": "https://t.me/magickamchatka"
+  },
+  {
+   "username": "makerpg",
+   "exhibitor": "Студия 101: настольные ролевые игры",
+   "group": "Издательство",
+   "url": "https://t.me/makerpg"
+  },
+  {
+   "username": "mathkang",
+   "exhibitor": "СМАРТ КЕНГУРУ",
+   "group": "Образование и наука",
+   "url": "https://t.me/mathkang"
+  },
+  {
+   "username": "mk_ru",
+   "exhibitor": "Редакция газеты Московский комсомолец",
+   "group": "СМИ и медиа",
+   "url": "https://t.me/mk_ru"
+  },
+  {
+   "username": "molodayagvardiya",
+   "exhibitor": "МОЛОДАЯ ГВАРДИЯ",
+   "group": "Издательство",
+   "url": "https://t.me/molodayagvardiya"
+  },
+  {
+   "username": "mtmuseum",
+   "exhibitor": "Музей Транспорта Москвы",
+   "group": "Прочее",
+   "url": "https://t.me/mtmuseum"
+  },
+  {
+   "username": "naukapublishersru",
+   "exhibitor": "Издательство Наука",
+   "group": "Издательство",
+   "url": "https://t.me/naukapublishersru"
+  },
+  {
+   "username": "nigmabook",
+   "exhibitor": "Нигма",
+   "group": "Издательство",
+   "url": "https://t.me/nigmabook"
+  },
+  {
+   "username": "novslovo",
+   "exhibitor": "Издательский сервис НОВОЕ СЛОВО",
+   "group": "Издательство",
+   "url": "https://t.me/novslovo"
+  },
+  {
+   "username": "omraam",
+   "exhibitor": "ПРОСВЕТА",
+   "group": "Издательство",
+   "url": "https://t.me/omraam"
+  },
+  {
+   "username": "otkrytaya_kniga_izd",
+   "exhibitor": "Издательство Открытая книга",
+   "group": "Издательство",
+   "url": "https://t.me/otkrytaya_kniga_izd"
+  },
+  {
+   "username": "peshkombook",
+   "exhibitor": "Пешком в историю",
+   "group": "Издательство",
+   "url": "https://t.me/peshkombook"
+  },
+  {
+   "username": "phytonknigi",
+   "exhibitor": "Фитон XXI",
+   "group": "Издательство",
+   "url": "https://t.me/phytonknigi"
+  },
+  {
+   "username": "piterdetstvo",
+   "exhibitor": "Питер комиксы",
+   "group": "Издательство",
+   "url": "https://t.me/piterdetstvo"
+  },
+  {
+   "username": "planetakniga",
+   "exhibitor": "Издательство ПЛАНЕТА",
+   "group": "Издательство",
+   "url": "https://t.me/planetakniga"
+  },
+  {
+   "username": "polyandria",
+   "exhibitor": "ПОЛЯНДРИЯ",
+   "group": "Издательство",
+   "url": "https://t.me/polyandria/"
+  },
+  {
+   "username": "polynpublishing",
+   "exhibitor": "ПОЛЫНЬ",
+   "group": "Издательство",
+   "url": "https://t.me/polynpublishing"
+  },
+  {
+   "username": "potolkuemgame",
+   "exhibitor": "ПОТОЛКУЕМ?",
+   "group": "Прочее",
+   "url": "https://t.me/potolkuemgame"
+  },
+  {
+   "username": "prlib",
+   "exhibitor": "Президентская библиотека",
+   "group": "Библиотека",
+   "url": "https://t.me/prlib"
+  },
+  {
+   "username": "red_librarian",
+   "exhibitor": "Рыжий Библиотекарь",
+   "group": "Издательство",
+   "url": "https://t.me/red_librarian"
+  },
+  {
+   "username": "ridero_official",
+   "exhibitor": "Ридеро",
+   "group": "Цифровой сервис и технологии",
+   "url": "https://t.me/ridero_official"
+  },
+  {
+   "username": "ripol_classic",
+   "exhibitor": "РИПОЛ классик",
+   "group": "Издательство",
+   "url": "https://t.me/ripol_classic"
+  },
+  {
+   "username": "rusimp_museum",
+   "exhibitor": "Музей русского импрессионизма",
+   "group": "Прочее",
+   "url": "https://t.me/rusimp_museum"
+  },
+  {
+   "username": "sadraltd",
+   "exhibitor": "САДРА",
+   "group": "Издательство",
+   "url": "https://t.me/sadraltd"
+  },
+  {
+   "username": "schodi_russia",
+   "exhibitor": "​Издательство ШОДИ",
+   "group": "Издательство",
+   "url": "https://t.me/schodi_russia"
+  },
+  {
+   "username": "sindbad_publishers",
+   "exhibitor": "СИНДБАД",
+   "group": "Издательство",
+   "url": "https://t.me/sindbad_publishers"
+  },
+  {
+   "username": "sorokknig",
+   "exhibitor": "40 КНИГ",
+   "group": "Издательство",
+   "url": "https://t.me/sorokknig"
+  },
+  {
+   "username": "strecoza_izd",
+   "exhibitor": "СТРЕКОЗА",
+   "group": "Издательство",
+   "url": "https://t.me/strecoza_izd"
+  },
+  {
+   "username": "stroybiblioteka",
+   "exhibitor": "Библиотека по строительству и архитектуре",
+   "group": "Библиотека",
+   "url": "https://t.me/stroybiblioteka"
+  },
+  {
+   "username": "theartsmuseum",
+   "exhibitor": "ГМИИ им. А. С. Пушкина",
+   "group": "Государственная организация",
+   "url": "https://t.me/theartsmuseum"
+  },
+  {
+   "username": "tibftehran",
+   "exhibitor": "Iran Book and Literature House",
+   "group": "Зарубежный участник",
+   "url": "https://t.me/tibftehran"
+  },
+  {
+   "username": "tor_shadowplay",
+   "exhibitor": "Театр Теней",
+   "group": "Издательство",
+   "url": "https://t.me/tor_shadowplay"
+  },
+  {
+   "username": "unost_journal",
+   "exhibitor": "Журнал Юность",
+   "group": "СМИ и медиа",
+   "url": "http://t.me/unost_journal"
+  },
+  {
+   "username": "vs_books",
+   "exhibitor": "Издательство Вольный Странник",
+   "group": "Издательство",
+   "url": "https://t.me/vs_books"
+  },
+  {
+   "username": "wizartcomics",
+   "exhibitor": "Визарт Комикс",
+   "group": "Издательство",
+   "url": "https://t.me/wizartcomics"
+  },
+  {
+   "username": "womenfairytales",
+   "exhibitor": "Ксения Соколова.Сказки Красного Шатра",
+   "group": "Прочее",
+   "url": "http://t.me/womenfairytales"
+  },
+  {
+   "username": "yauzapublishighouse",
+   "exhibitor": "Издательство Яуза",
+   "group": "Издательство",
+   "url": "https://t.me/yauzapublishighouse"
+  }
+ ]
+}

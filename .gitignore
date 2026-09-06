@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+data/raw/
+data/events/
+
+# служебное
+data/contacts/out/
+*.session
