@@ -20,6 +20,35 @@
 <h2>Где ещё пишут</h2><ul><li><a href="https://www.peshkombooks.ru/info/people/potapova_nadezhda/" rel="nofollow noopener" target="_blank">Автор Потапова Надежда - детские книги издательства</a><br><span class="small muted">Привет, я — Надежда Потапова, соавтор книги &quot;Клетки: из чего сделано всё живое&quot;. У меня два высших образования, по первому я биолог и уже более 10 лет...</span></li><li><a href="https://www.kinopoisk.ru/name/10206332/" rel="nofollow noopener" target="_blank">Надежда Потапова - Фильмография</a><br><span class="small muted">Надежда Потапова. Дата рождения: 31 июля, 1998. Актриса. Лучшие фильмы ... студентка. https://vk.ru/kinopoisk · https://t.me/+ebQwDHDHRpg3ZTcy · https://www...</span></li><li><a href="https://forum.tourtrans.ru/topic/12033-s-dnem-rozhdeniya-nadezhda-potapova/page/7/" rel="nofollow noopener" target="_blank">Надежда Потапова on Reels</a><br><span class="small muted"></span></li></ul>
 <p class="small muted">Ссылки найдены автоматически через поисковую выдачу — возможны однофамильцы.</p>
 </main>
+
+<script>
+// Превью -> плеер по клику: iframe создаётся только для нажатой записи.
+// VK не отдаёт плеер в iframe с незащищённого origin (проверено: с http://127.0.0.1
+// показывает «Видео недоступно», с https тот же код играет); YouTube этим не страдает,
+// поэтому проверяем протокол только для vk.com.
+for (const box of document.querySelectorAll('.video[data-embed]')) {
+  const isVk = box.dataset.embed.includes('vk.com');
+  const canEmbed = !isVk || location.protocol === 'https:';
+  const open = () => {
+    if (!canEmbed) { window.open(box.dataset.url, '_blank', 'noopener'); return; }
+    const f = document.createElement('iframe');
+    f.allow = 'autoplay; encrypted-media; fullscreen; picture-in-picture';
+    f.allowFullscreen = true;
+    f.src = box.dataset.embed + (box.dataset.embed.includes('?') ? '&' : '?') + 'autoplay=1';
+    box.replaceChildren(f);
+    box.removeAttribute('role');
+    box.style.cursor = 'default';
+  };
+  box.addEventListener('click', open);
+  box.addEventListener('keydown', e => {
+    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); }
+  });
+  if (!canEmbed) {
+    const n = document.getElementById('embed-note');
+    if (n) n.hidden = false;
+  }
+}
+</script>
 <footer>
   <p>Независимый разбор 39-й Московской международной книжной ярмарки (2–6 сентября 2026, «Гостиный Двор»).
   Данные собраны из открытого API сайта <a href="https://events.mibf.info/2026/program">events.mibf.info</a>,

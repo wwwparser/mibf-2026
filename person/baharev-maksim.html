@@ -20,6 +20,35 @@
 <h2>Где ещё пишут</h2><ul><li><a href="https://vk.ru/id485650953" rel="nofollow noopener" target="_blank">Максим Бахарев</a><br><span class="small muted">Максим Бахарев. Информация. Деньги. Подарок. Вопрос. Информация. 23 мая 1998 г. Фотографии. 1. 1 запись. Максим Бахарев · 27 июл 2018 · 1Оценил 1 человек.</span></li><li><a href="https://www.instagram.com/reel/DZb9XwXMz4S/" rel="nofollow noopener" target="_blank">Дню России. Герой выпуска - Максим Бахарев. ...</a><br><span class="small muted">Я с гордостью представляю вам, дорогие зрители, новый выпуск «Громче слов», который мы подготовили к 12 июня - Дню России.</span></li></ul>
 <p class="small muted">Ссылки найдены автоматически через поисковую выдачу — возможны однофамильцы.</p>
 </main>
+
+<script>
+// Превью -> плеер по клику: iframe создаётся только для нажатой записи.
+// VK не отдаёт плеер в iframe с незащищённого origin (проверено: с http://127.0.0.1
+// показывает «Видео недоступно», с https тот же код играет); YouTube этим не страдает,
+// поэтому проверяем протокол только для vk.com.
+for (const box of document.querySelectorAll('.video[data-embed]')) {
+  const isVk = box.dataset.embed.includes('vk.com');
+  const canEmbed = !isVk || location.protocol === 'https:';
+  const open = () => {
+    if (!canEmbed) { window.open(box.dataset.url, '_blank', 'noopener'); return; }
+    const f = document.createElement('iframe');
+    f.allow = 'autoplay; encrypted-media; fullscreen; picture-in-picture';
+    f.allowFullscreen = true;
+    f.src = box.dataset.embed + (box.dataset.embed.includes('?') ? '&' : '?') + 'autoplay=1';
+    box.replaceChildren(f);
+    box.removeAttribute('role');
+    box.style.cursor = 'default';
+  };
+  box.addEventListener('click', open);
+  box.addEventListener('keydown', e => {
+    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); }
+  });
+  if (!canEmbed) {
+    const n = document.getElementById('embed-note');
+    if (n) n.hidden = false;
+  }
+}
+</script>
 <footer>
   <p>Независимый разбор 39-й Московской международной книжной ярмарки (2–6 сентября 2026, «Гостиный Двор»).
   Данные собраны из открытого API сайта <a href="https://events.mibf.info/2026/program">events.mibf.info</a>,

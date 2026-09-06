@@ -20,6 +20,35 @@
 <h2>Где ещё пишут</h2><ul><li><a href="https://profileok.ru/20784957-mariya-babiy-moskva.html" rel="nofollow noopener" target="_blank">Мария Бабий, Москва, 41 год - полная информация о ...</a><br><span class="small muted">Профиль Бабий Марии, 41 год - все данные о человеке (id20784957), его интересы, номер телефона, семейное положение, место работы,...</span></li><li><a href="https://setka.ru/users/143efbea-10d4-40f9-9ec1-f8a1658e9297" rel="nofollow noopener" target="_blank">Мария Бабий - Эксмо-АСТ</a><br><span class="small muted">Мария Бабий — Заместитель PR-директора, Департамент стратегических коммуникаций, издательская группа «Эксмо-АСТ» в социальной сети Сетка.</span></li><li><a href="https://www.rusprofile.ru/ip/318583500044876" rel="nofollow noopener" target="_blank">ИП Бабий Мария Геннадьевна</a><br><span class="small muted">Бабий Мария Геннадьевна. Гражданство: РФ. Пол: женский. ОГРНИП: 318583500044876: от 30 июля 2018 г. ИНН: 580300969231. Дата регистрации: 30.07.2018. Адрес...</span></li></ul>
 <p class="small muted">Ссылки найдены автоматически через поисковую выдачу — возможны однофамильцы.</p>
 </main>
+
+<script>
+// Превью -> плеер по клику: iframe создаётся только для нажатой записи.
+// VK не отдаёт плеер в iframe с незащищённого origin (проверено: с http://127.0.0.1
+// показывает «Видео недоступно», с https тот же код играет); YouTube этим не страдает,
+// поэтому проверяем протокол только для vk.com.
+for (const box of document.querySelectorAll('.video[data-embed]')) {
+  const isVk = box.dataset.embed.includes('vk.com');
+  const canEmbed = !isVk || location.protocol === 'https:';
+  const open = () => {
+    if (!canEmbed) { window.open(box.dataset.url, '_blank', 'noopener'); return; }
+    const f = document.createElement('iframe');
+    f.allow = 'autoplay; encrypted-media; fullscreen; picture-in-picture';
+    f.allowFullscreen = true;
+    f.src = box.dataset.embed + (box.dataset.embed.includes('?') ? '&' : '?') + 'autoplay=1';
+    box.replaceChildren(f);
+    box.removeAttribute('role');
+    box.style.cursor = 'default';
+  };
+  box.addEventListener('click', open);
+  box.addEventListener('keydown', e => {
+    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); }
+  });
+  if (!canEmbed) {
+    const n = document.getElementById('embed-note');
+    if (n) n.hidden = false;
+  }
+}
+</script>
 <footer>
   <p>Независимый разбор 39-й Московской международной книжной ярмарки (2–6 сентября 2026, «Гостиный Двор»).
   Данные собраны из открытого API сайта <a href="https://events.mibf.info/2026/program">events.mibf.info</a>,

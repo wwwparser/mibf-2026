@@ -20,6 +20,35 @@
 <h2>Где ещё пишут</h2><ul><li><a href="https://m.vkvideo.ru/clips/id87968652" rel="nofollow noopener" target="_blank">Кристина Красильникова — клипы</a><br><span class="small muted">Кристина Красильникова — клипы. Кристина Красильникова. Санкт-Петербург · 0 подписчиков. ВидеоВсе плейлисты · Клипы · Трансляции. Нет ни одной видеозаписи.</span></li><li><a href="https://www.instagram.com/kristin_krasilnikova/" rel="nofollow noopener" target="_blank">Кристина Красильникова (@kristin_krasilnikova)</a><br><span class="small muted">Кристина Красильникова. 1,586 followers. 1,135 following. Рекламы ... https://vk.com/id710743097 страничка Кристины в контакте, не теряйте. https...</span></li><li><a href="https://www.kinopoisk.ru/name/6664635/" rel="nofollow noopener" target="_blank">Кристина Красильникова - Фильмография</a><br><span class="small muted">Кристина Красильникова. Дата рождения: 2010. Актриса. Лучшие фильмы: Провинциальный детектив, Алиса не может ждать, По ту сторону смерти.</span></li></ul>
 <p class="small muted">Ссылки найдены автоматически через поисковую выдачу — возможны однофамильцы.</p>
 </main>
+
+<script>
+// Превью -> плеер по клику: iframe создаётся только для нажатой записи.
+// VK не отдаёт плеер в iframe с незащищённого origin (проверено: с http://127.0.0.1
+// показывает «Видео недоступно», с https тот же код играет); YouTube этим не страдает,
+// поэтому проверяем протокол только для vk.com.
+for (const box of document.querySelectorAll('.video[data-embed]')) {
+  const isVk = box.dataset.embed.includes('vk.com');
+  const canEmbed = !isVk || location.protocol === 'https:';
+  const open = () => {
+    if (!canEmbed) { window.open(box.dataset.url, '_blank', 'noopener'); return; }
+    const f = document.createElement('iframe');
+    f.allow = 'autoplay; encrypted-media; fullscreen; picture-in-picture';
+    f.allowFullscreen = true;
+    f.src = box.dataset.embed + (box.dataset.embed.includes('?') ? '&' : '?') + 'autoplay=1';
+    box.replaceChildren(f);
+    box.removeAttribute('role');
+    box.style.cursor = 'default';
+  };
+  box.addEventListener('click', open);
+  box.addEventListener('keydown', e => {
+    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); }
+  });
+  if (!canEmbed) {
+    const n = document.getElementById('embed-note');
+    if (n) n.hidden = false;
+  }
+}
+</script>
 <footer>
   <p>Независимый разбор 39-й Московской международной книжной ярмарки (2–6 сентября 2026, «Гостиный Двор»).
   Данные собраны из открытого API сайта <a href="https://events.mibf.info/2026/program">events.mibf.info</a>,

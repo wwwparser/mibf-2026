@@ -20,6 +20,35 @@
 <h2>Где ещё пишут</h2><ul><li><a href="https://www.kinopoisk.ru/name/10202416/" rel="nofollow noopener" target="_blank">Андрей Финагин: фильмы, биография, семья ...</a><br><span class="small muted">Андрей Финагин. Дата рождения: 23 августа, 1984. Актер. Лучшие фильмы ... ВКонтакте · X · Telegram · https://vk.com/kinopoisk · https://t.me/+ebQwDHDHRpg3ZTcy..</span></li><li><a href="https://wink.ru/persons/andrey-finagin" rel="nofollow noopener" target="_blank">Андрей Финагин: Биография, Фото, Фильмография - Wink</a><br><span class="small muted">Андрей Финагин: лучшие фильмы и сериалы на онлайн-сервисе Wink. Андрей Финагин: личная жизнь, биография, фильмография, фото и другая интересная информация.</span></li><li><a href="https://www.metronews.ru/novosti/reviews/andrey-finagin-kak-kniga-gotova-vsegda-oschuschayu-nekotoruyu-pustotu-v-dushe-2176837/" rel="nofollow noopener" target="_blank">Андрей Финагин: &quot;Как книга готова, всегда ощущаю ...</a><br><span class="small muted">Андрей Финагин, российский диктор, радиоведущий, участник проекта &quot;Литрес Чтец&quot; дал интервью специально для издания Metro.</span></li></ul>
 <p class="small muted">Ссылки найдены автоматически через поисковую выдачу — возможны однофамильцы.</p>
 </main>
+
+<script>
+// Превью -> плеер по клику: iframe создаётся только для нажатой записи.
+// VK не отдаёт плеер в iframe с незащищённого origin (проверено: с http://127.0.0.1
+// показывает «Видео недоступно», с https тот же код играет); YouTube этим не страдает,
+// поэтому проверяем протокол только для vk.com.
+for (const box of document.querySelectorAll('.video[data-embed]')) {
+  const isVk = box.dataset.embed.includes('vk.com');
+  const canEmbed = !isVk || location.protocol === 'https:';
+  const open = () => {
+    if (!canEmbed) { window.open(box.dataset.url, '_blank', 'noopener'); return; }
+    const f = document.createElement('iframe');
+    f.allow = 'autoplay; encrypted-media; fullscreen; picture-in-picture';
+    f.allowFullscreen = true;
+    f.src = box.dataset.embed + (box.dataset.embed.includes('?') ? '&' : '?') + 'autoplay=1';
+    box.replaceChildren(f);
+    box.removeAttribute('role');
+    box.style.cursor = 'default';
+  };
+  box.addEventListener('click', open);
+  box.addEventListener('keydown', e => {
+    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); }
+  });
+  if (!canEmbed) {
+    const n = document.getElementById('embed-note');
+    if (n) n.hidden = false;
+  }
+}
+</script>
 <footer>
   <p>Независимый разбор 39-й Московской международной книжной ярмарки (2–6 сентября 2026, «Гостиный Двор»).
   Данные собраны из открытого API сайта <a href="https://events.mibf.info/2026/program">events.mibf.info</a>,

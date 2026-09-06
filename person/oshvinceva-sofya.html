@@ -20,6 +20,35 @@
 <h2>Где ещё пишут</h2><ul><li><a href="https://polpred.ru/news/?ns=1&amp;sector=18&amp;person_id=all&amp;page=121" rel="nofollow noopener" target="_blank">Новости. Обзор СМИ Рубрикатор поиска + личные списки</a><br><span class="small muted">К. Ошвинцева, в 1921–1924 гг. руководившего Богословским горнозаводским трестом, в 1924–1927 гг. — Лысьвенским горным округом, а в 1927–1929 гг. возглавлявшего.</span></li><li><a href="https://polpred.ru/news?ns=1&amp;cs[69]=on&amp;cs[76]=on&amp;cs[153]=on&amp;cs[160]=on&amp;cs[163]=on&amp;fulltext=on&amp;word=clr&amp;period_count=1&amp;sortby=id&amp;page=615" rel="nofollow noopener" target="_blank">Новости</a><br><span class="small muted">Новости, структуры государственной власти, экономика, право, банки, инвестиции, таможня, промышленность, власть России телефонный справочник, наука,...</span></li></ul>
 <p class="small muted">Ссылки найдены автоматически через поисковую выдачу — возможны однофамильцы.</p>
 </main>
+
+<script>
+// Превью -> плеер по клику: iframe создаётся только для нажатой записи.
+// VK не отдаёт плеер в iframe с незащищённого origin (проверено: с http://127.0.0.1
+// показывает «Видео недоступно», с https тот же код играет); YouTube этим не страдает,
+// поэтому проверяем протокол только для vk.com.
+for (const box of document.querySelectorAll('.video[data-embed]')) {
+  const isVk = box.dataset.embed.includes('vk.com');
+  const canEmbed = !isVk || location.protocol === 'https:';
+  const open = () => {
+    if (!canEmbed) { window.open(box.dataset.url, '_blank', 'noopener'); return; }
+    const f = document.createElement('iframe');
+    f.allow = 'autoplay; encrypted-media; fullscreen; picture-in-picture';
+    f.allowFullscreen = true;
+    f.src = box.dataset.embed + (box.dataset.embed.includes('?') ? '&' : '?') + 'autoplay=1';
+    box.replaceChildren(f);
+    box.removeAttribute('role');
+    box.style.cursor = 'default';
+  };
+  box.addEventListener('click', open);
+  box.addEventListener('keydown', e => {
+    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); }
+  });
+  if (!canEmbed) {
+    const n = document.getElementById('embed-note');
+    if (n) n.hidden = false;
+  }
+}
+</script>
 <footer>
   <p>Независимый разбор 39-й Московской международной книжной ярмарки (2–6 сентября 2026, «Гостиный Двор»).
   Данные собраны из открытого API сайта <a href="https://events.mibf.info/2026/program">events.mibf.info</a>,

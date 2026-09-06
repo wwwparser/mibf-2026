@@ -58,6 +58,10 @@
 </table>
 </div>
 
+<div class="video yt" data-embed="https://www.youtube.com/embed/NMa5kM_0Lpg" data-url="https://www.youtube.com/watch?v=NMa5kM_0Lpg" role="button" tabindex="0" aria-label="Лекция: Шукшин, Белов, Распутин"><img src="https://i.ytimg.com/vi/NMa5kM_0Lpg/hqdefault.jpg" alt="" loading="lazy"><span class="play"></span></div>
+<p class="small muted">Университетская лекция «Шукшин, Белов, Распутин» — разбор
+трёх ключевых авторов направления.</p>
+
 <h2>Крупин отдельно</h2>
 <p>Крупин пришёл в направление позже основного ядра и занял в нём особое место.
 Известность ему принесла повесть <b>«Живая вода»</b> — её перевели на несколько
@@ -67,6 +71,10 @@
 <p>Из всего перечисленного ряда он единственный, кто дожил до сегодняшнего дня
 и продолжает писать. Встреча на ярмарке — редкая возможность услышать это
 направление не в пересказе литературоведов, а от автора.</p>
+
+<div class="video yt" data-embed="https://www.youtube.com/embed/DA-gHdjS9KU" data-url="https://www.youtube.com/watch?v=DA-gHdjS9KU" role="button" tabindex="0" aria-label="Интервью с писателем Владимиром Крупиным"><img src="https://i.ytimg.com/vi/DA-gHdjS9KU/hqdefault.jpg" alt="" loading="lazy"><span class="play"></span></div>
+<p class="small muted">Интервью с Владимиром Крупиным — тот самый голос, который
+на ярмарке можно было услышать вживую.</p>
 
 <h2>Почему это читают сейчас</h2>
 <p>Деревенская проза оказалась неожиданно живучей по двум причинам.</p>
@@ -98,6 +106,35 @@
 <p class="small muted">Все упомянутые книги есть в
 <a href="../books.html">сквозном списке книг ярмарки</a> — там же ссылки,
 где их купить.</p></main>
+
+<script>
+// Превью -> плеер по клику: iframe создаётся только для нажатой записи.
+// VK не отдаёт плеер в iframe с незащищённого origin (проверено: с http://127.0.0.1
+// показывает «Видео недоступно», с https тот же код играет); YouTube этим не страдает,
+// поэтому проверяем протокол только для vk.com.
+for (const box of document.querySelectorAll('.video[data-embed]')) {
+  const isVk = box.dataset.embed.includes('vk.com');
+  const canEmbed = !isVk || location.protocol === 'https:';
+  const open = () => {
+    if (!canEmbed) { window.open(box.dataset.url, '_blank', 'noopener'); return; }
+    const f = document.createElement('iframe');
+    f.allow = 'autoplay; encrypted-media; fullscreen; picture-in-picture';
+    f.allowFullscreen = true;
+    f.src = box.dataset.embed + (box.dataset.embed.includes('?') ? '&' : '?') + 'autoplay=1';
+    box.replaceChildren(f);
+    box.removeAttribute('role');
+    box.style.cursor = 'default';
+  };
+  box.addEventListener('click', open);
+  box.addEventListener('keydown', e => {
+    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); }
+  });
+  if (!canEmbed) {
+    const n = document.getElementById('embed-note');
+    if (n) n.hidden = false;
+  }
+}
+</script>
 <footer>
   <p>Независимый разбор 39-й Московской международной книжной ярмарки (2–6 сентября 2026, «Гостиный Двор»).
   Данные собраны из открытого API сайта <a href="https://events.mibf.info/2026/program">events.mibf.info</a>,
