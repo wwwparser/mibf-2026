@@ -1,5 +1,7 @@
 # ММКЯ-2026 — разбор ярмарки
 
+**Сайт: https://wwwparser.github.io/mibf-2026/**
+
 Статический сайт-разбор 39-й Московской международной книжной ярмарки
 (2–6 сентября 2026, «Гостиный Двор»). Вся фактура собирается скриптами
 из открытых источников, сайт генерится в папку `site/` и кладётся на
@@ -161,16 +163,31 @@ tag: Индустрия
 
 ## Публикация на GitHub Pages
 
+Сайт живёт в ветке `gh-pages` (там лежит содержимое `site/`), исходники — в `main`.
+Pages настроены на `gh-pages` → корень. После пересборки:
+
 ```bash
-git init && git add . && git commit -m "ММКЯ-2026: разбор ярмарки"
-git branch -M main
-git remote add origin git@github.com:<user>/<repo>.git
-git push -u origin main
+python scripts/build_site.py
+git add -A && git commit -m "Обновить данные"
+git push origin main
+git subtree push --prefix site origin gh-pages     # выложить сайт
 ```
 
-Дальше в настройках репозитория: **Settings → Pages → Source: Deploy from a branch**,
-ветка `main`, папка `/site`. Через минуту сайт открывается по адресу
-`https://<user>.github.io/<repo>/`.
+Если `subtree push` откажется из-за расхождения истории:
+
+```bash
+git push origin `git subtree split --prefix site main`:gh-pages --force
+```
+
+Файл `site/.nojekyll` обязателен — иначе Jekyll на стороне GitHub пропускает
+папки, начинающиеся с подчёркивания, и часть файлов не публикуется.
+
+## Ссылки VK и https
+
+Плеер VK встраивается только на защищённые страницы: с `http://127.0.0.1`
+`video_ext.php` показывает «Видео недоступно», с https тот же код играет
+(проверено 6 сентября 2026). Поэтому при локальном просмотре клик по превью
+открывает запись во ВКонтакте, а на опубликованном сайте — играет на месте.
 
 ## Оговорки
 
